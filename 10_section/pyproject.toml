@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "10-section"
+version = "0.1.0"
+description = ""
+authors = ["fuffes <shamrey02@mail.ru>"]
+readme = "README.md"
+packages = [{include = "10_section"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^3.0.3"
+behave = "^1.2.6"
+beautifulsoup4 = "^4.12.3"
+selenium = "^4.24.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
